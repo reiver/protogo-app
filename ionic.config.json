@@ -1,5 +1,5 @@
 {
-  "name": "protogo",
+  "name": "protogo-app",
   "integrations": {
     "capacitor": {}
   },

@@ -98,37 +98,6 @@
 						</ion-item>
 					</div>
 				</div>
-
-
-				<ion-item-group>
-					<ion-item-divider>
-						<ion-label>FOSDEM 2025</ion-label>
-					</ion-item-divider>
-
-					<ion-item>
-						<ion-label>A</ion-label>
-					</ion-item>
-					<ion-item>
-						<ion-label>BB</ion-label>
-					</ion-item>
-					<ion-item>
-						<ion-label>CCC</ion-label>
-					</ion-item>
-				</ion-item-group>
-
-
-				<!--
-				<ion-list class="full-height">
-					<div v-for="item in items">
-					<ion-item :key="item.id">
-						<ion-avatar>
-							<ion-icon :icon="personOutline" size="large"></ion-icon>
-						</ion-avatar>
-						<ion-label>{{ item.name }}</ion-label>
-					</ion-item>
-					</div>
-				</ion-list>
-				-->
 			</ion-content>
 		</div>
 	</ion-tab>

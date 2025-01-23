@@ -12,15 +12,27 @@
 </style>
 <template>
 <ion-tabs>
-	<ion-tab tab="me">
+	<ion-tab tab="profile">
 		<div id="me-page">
 			<ion-header>
 				<ion-toolbar>
-					<ion-title>Me</ion-title>
+					<ion-title>Profile</ion-title>
 				</ion-toolbar>
 			</ion-header>
 			<ion-content class="full-height">
-				<div class="protogo-content">My content</div>
+				<ion-card>
+					<img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+					<ion-card-header>
+						<ion-avatar>
+							<img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+						</ion-avatar>
+						<ion-card-title>Rostam Pesar'zaal</ion-card-title>
+						<ion-card-subtitle>@rostam</ion-card-subtitle>
+					</ion-card-header>
+					<ion-card-content>
+						Monster hunter.
+					</ion-card-content>
+				</ion-card>
 			</ion-content>
 		</div>
 	</ion-tab>
@@ -122,9 +134,9 @@
 	</ion-tab>
 
 	<ion-tab-bar slot="bottom">
-		<ion-tab-button tab="me">
-			<ion-icon :icon="bodyOutline" />
-			Me
+		<ion-tab-button tab="profile">
+			<ion-icon :icon="personCircleOutline" />
+			Profile
 		</ion-tab-button>
 		<ion-tab-button tab="gigs">
 			<ion-icon :icon="briefcaseOutline" />
@@ -149,6 +161,11 @@
 <script lang="ts">
 import {
 	IonAvatar,
+	IonCard,
+	IonCardContent,
+	IonCardHeader,
+	IonCardSubtitle,
+	IonCardTitle,
 	IonContent,
 	IonHeader,
 	IonIcon,
@@ -167,10 +184,10 @@ import {
 
 import {
 	atOutline,
-	bodyOutline,
 	briefcaseOutline,
 	chatboxOutline,
 	personOutline,
+	personCircleOutline,
 	searchOutline,
 } from 'ionicons/icons';
 
@@ -234,6 +251,11 @@ const connectionGroups = [
 export default {
 	components: {
 		IonAvatar,
+		IonCard,
+		IonCardContent,
+		IonCardHeader,
+		IonCardSubtitle,
+		IonCardTitle,
 		IonContent,
 		IonHeader,
 		IonIcon,
@@ -252,10 +274,10 @@ export default {
 	data() {
 		return {
 			atOutline,
-			bodyOutline,
 			briefcaseOutline,
 			chatboxOutline,
 			searchOutline,
+			personCircleOutline,
 			personOutline,
 
 			connectionGroups,

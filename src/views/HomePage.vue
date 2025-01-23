@@ -98,6 +98,14 @@
 						</ion-item>
 					</div>
 				</div>
+
+				<!--
+				  I should NOT need to do this (below) and have these extra "ion-item" tags, but
+				  if I do not put those there, then the last 2 items get cut off.
+				 -->
+				<ion-item></ion-item>
+				<ion-item></ion-item>
+				<ion-item></ion-item>
 			</ion-content>
 		</div>
 	</ion-tab>

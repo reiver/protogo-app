@@ -27,7 +27,7 @@
 							<img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
 						</ion-avatar>
 						<ion-card-title>Rostam Pesar'zaal</ion-card-title>
-						<ion-card-subtitle>@rostam</ion-card-subtitle>
+						<ion-card-subtitle>@rostam@host.example</ion-card-subtitle>
 					</ion-card-header>
 					<ion-card-content>
 						Monster hunter.

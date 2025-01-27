@@ -21,3 +21,5 @@ GOOS=js GOARCH=wasm go build -o main.wasm
 ## Author
 
 Software **protogo** was written by [Charles Iliya Krempeaux](http://reiver.link)
+
+**protogo** also makes use of [Feather Icons](https://github.com/feathericons/feather).

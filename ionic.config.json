@@ -1,7 +1,0 @@
-{
-  "name": "protogo-app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue-vite"
-}

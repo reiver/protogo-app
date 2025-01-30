@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"syscall/js"
 
-	"github.com/reiver/protogo-app/ui"
+	"github.com/reiver/protogo-app/ui/base"
 )
 
 func main() {
@@ -60,7 +60,7 @@ func main() {
 			return
 		}
 
-		body.Set("innerHTML", ui.Main)
+		body.Set("innerHTML", baseui.HTML)
 	}
 	fmt.Println("ui created")
 

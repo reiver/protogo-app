@@ -10,6 +10,10 @@
 It is written in the Go programming-language (Go) and is compiled to WebAssembly (WASM).
 The Go code creates the UI by adding HTML and CSS using DOM manipulation.
 
+## Running
+
+To run **protogo-app** you need to run it from an HTTP server, and then open up `main.html` from web-browser.
+
 ## Building
 
 To build **protogo-app** run a command similar to the following:
